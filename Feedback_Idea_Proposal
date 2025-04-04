@@ -1,0 +1,13 @@
+Thank you for the effort and depth of technical planning reflected in this proposal — tackling preventable vision loss through AI aligns powerfully with SDG 3 and 10, and your focus on rural and underserved populations shows a clear awareness of global health disparities. The choice to develop a multi-class classification system using fundus images is well-justified, and your use of transfer learning with EfficientNet or ResNet demonstrates practical and up-to-date knowledge of deep learning best practices. The inclusion of image preprocessing and augmentation shows attention to robustness, which is critical in medical imaging tasks.
+
+To make the project even more novel and impactful, consider integrating multi-modal imaging data, such as combining fundus and OCT (Optical Coherence Tomography) images if available, which can improve diagnostic accuracy — especially for glaucoma. You could also explore explainable AI techniques like Grad-CAM to visualize which parts of the retina the model focuses on for each disease, building trust among clinicians and users. For expanding your dataset or benchmarking, consider using additional sources such as:
+
+    IDRiD (Indian Diabetic Retinopathy Image Dataset)
+
+    REFUGE (Retinal Fundus Glaucoma Challenge)
+
+    OCT2017 Dataset for macular diseases (could be adapted)
+
+    HRF (High-Resolution Fundus) Dataset for vessel segmentation
+
+Finally, building a lightweight mobile-compatible version or edge AI deployment strategy could significantly increase the accessibility of this tool in low-resource settings, moving from lab to field more effectively.
